@@ -6,19 +6,19 @@ public class CafeJava {
         String readyMessage = ", your order is ready.";
         String displayTotalMessage = "Your total is $";
 
-        double mochaPrice = 3.5;
-        double dripPrice = 2.0;
-        double lattePrice = 3.0;
-        double cappuccinoPrice = 3.0;
+        double mochaPrice = 6.5;
+        double dripPrice = 4.0;
+        double lattePrice = 5.5;
+        double cappuccinoPrice = 5.5;
 
         String customer1 = "Cindhuri";
         String customer2 = "Sam";
         String customer3 = "Jorge";
         String customer4 = "Noah";
 
-        boolean isReadyOrder1 = false;
-        boolean isReadyOrder2 = false;
-        boolean isReadyOrder3 = false;
+        boolean isReadyOrder1 = true;
+        boolean isReadyOrder2 = true;
+        boolean isReadyOrder3 = true;
         boolean isReadyOrder4 = true;
 
         System.out.println(generalGreeting + customer1);
